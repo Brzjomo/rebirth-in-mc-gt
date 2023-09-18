@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.brzjomo.rebirthinmcihaveasystemforcultivatingimmortals.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"PlayerStatusBarClientMixin",
+		"PlayerInventoryScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

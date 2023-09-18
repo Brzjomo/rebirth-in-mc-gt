@@ -1,0 +1,63 @@
+v0.0.1:
+initialization;
+
+v0.0.2:
+Keybindings;
+
+v0.0.3:
+Custom data packages;
+
+v0.0.4:
+Added a new training value progress bar;
+
+v0.0.5:
+Added text annotation for the realm of cultivation;
+Fixed an issue where progress could not be displayed correctly in the first level;
+
+v0.0.6:
+Solve the problem of the practice value progress bar being blocked under various circumstances;
+
+v0.0.7:
+Now set the color of the realm name according to the realm;
+
+v0.0.8:
+Use Cardinal Components API instead of Mixin method to achieve data saving and persistent data;
+
+v0.0.9:
+Solve the problem of out-of-sync training data;
+
+v0.0.10:
+Rewrite player health bar;
+
+v0.0.11:
+Rewrite player armor bar;
+
+v0.0.12:
+Fixed the issue where damage absorption is still displayed as blood volume when the player dies;
+[Test] When the player's cultivation level is improved, the player's maximum health volume will be increased, and the player's health will be restored to full health when reborn;
+Fine-tune the position of armor and health fonts when "Force unicode font" is enabled;
+
+v0.0.13:
+Increase aura value;
+Increase the aura value progress bar;
+Adjust the repair value progress bar;
+Increase player spiritual roots;
+
+v0.0.14:
+Improve spiritual root related functions;
+
+v0.0.15:
+Add player interface prototype;
+
+v0.0.16:
+Preliminary rewriting of the player backpack interface;
+Adjust recipe book button;
+
+v0.0.17:
+Adjust the position of player backpack slots;
+
+v0.0.18:
+The original backpack function is completed;
+
+v0.0.19:
+Fabric-ASM test;

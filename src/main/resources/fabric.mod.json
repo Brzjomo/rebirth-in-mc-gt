@@ -1,0 +1,59 @@
+{
+	"schemaVersion": 1,
+	"id": "rebirthinmcihaveasystemforcultivatingimmortals",
+	"version": "${version}",
+	"name": "Rebirth In MC",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Brzjomo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-2.0",
+	"icon": "assets/rebirthinmcihaveasystemforcultivatingimmortals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.brzjomo.rebirthinmcihaveasystemforcultivatingimmortals.RebirthInMCIHaveASystemForCultivatingImmortals"
+		],
+		"client": [
+			"com.brzjomo.rebirthinmcihaveasystemforcultivatingimmortals.RebirthInMCIHaveASystemForCultivatingImmortalsClient"
+		],
+		"fabric-datagen": [
+			"com.brzjomo.rebirthinmcihaveasystemforcultivatingimmortals.RebirthInMCIHaveASystemForCultivatingImmortalsDataGenerator"
+		],
+		"cardinal-components": [
+			"com.brzjomo.rebirthinmcihaveasystemforcultivatingimmortals.tool.ModComponents"
+		]
+	},
+	"mixins": [
+		"rebirthinmcihaveasystemforcultivatingimmortals.mixins.json",
+		{
+			"config": "rebirthinmcihaveasystemforcultivatingimmortals.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener" : "rebirthinmcihaveasystemforcultivatingimmortals.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"cardinal-components": [
+			"rebirthinmcihaveasystemforcultivatingimmortals:player_data"
+		],
+		"loom:injected_interfaces": {
+			"net/minecraft/class_1703": ["com/brzjomo/rebirthinmcihaveasystemforcultivatingimmortals/tool/ISlot"]
+		},
+		"mm:early_risers": [
+			"com.brzjomo.rebirthinmcihaveasystemforcultivatingimmortals.asm.EarlyRiser"
+		]
+	}
+}
